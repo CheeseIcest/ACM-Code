@@ -1,0 +1,35 @@
+yum -y install wget
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+
+
+wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh、、
+
+ ShadowsocksR账号 配置信息：
+
+ I  P	    : 149.28.192.198
+ 端口	    : 5999
+ 密码	    : cheeseice
+ 加密	    : aes-192-cfb
+ 协议	    : auth_sha1_v4_compatible
+ 混淆	    : plain
+ 设备数限制 : 0(无限)
+ 单线程限速 : 0 KB/S
+ 端口总限速 : 0 KB/S
+ SS    链接 : ss://YWVzLTE5Mi1jZmI6Y2hlZXNlaWNlQDE0OS4yOC4xOTIuMTk4OjU5OTk 
+ SS  二维码 : http://doub.pw/qr/qr.php?text=ss://YWVzLTE5Mi1jZmI6Y2hlZXNlaWNlQDE0OS4yOC4xOTIuMTk4OjU5OTk
+ SSR   链接 : ssr://MTQ5LjI4LjE5Mi4xOTg6NTk5OTphdXRoX3NoYTFfdjQ6YWVzLTE5Mi1jZmI6cGxhaW46WTJobFpYTmxhV05s 
+ SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTQ5LjI4LjE5Mi4xOTg6NTk5OTphdXRoX3NoYTFfdjQ6YWVzLTE5Mi1jZmI6cGxhaW46WTJobFpYTmxhV05s 
+ 
+  提示: 
+ 在浏览器中，打开二维码链接，就可以看到二维码图片。
+ 协议和混淆后面的[ _compatible ]，指的是 兼容原版协议/混淆。
+
+
+
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>＆1 | tee shadowsocks-all.log
+
+wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh
+chmod +x ./kcptun.sh
+./kcptun.sh
